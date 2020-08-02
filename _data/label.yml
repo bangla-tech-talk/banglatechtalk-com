@@ -6,6 +6,7 @@
 
 common:
   details: "বিস্তারিত"
+  language_change: EN
 
 panel:
   lastmod: "সাম্প্রতিক সংযোজন"

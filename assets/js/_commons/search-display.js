@@ -12,9 +12,11 @@ $(function() {
   var btnSearchTrigger = $('#search-trigger');
   var btnCancel = $('#search-cancel');
   var btnClear = $('#search-cleaner');
+  var btnLangChange = $('#language-change');
 
   var main = $('#main');
   var topbarTitle = $('#topbar-title');
+  var topbarRightItemsWrapper = $('#topbar-right-items-wrapper');
   var searchWrapper = $('#search-wrapper');
   var resultWrapper = $('#search-result-wrapper');
   var results = $('#search-results');
@@ -44,16 +46,21 @@ $(function() {
       on: function() {
         btnSbTrigger.addClass('unloaded');
         topbarTitle.addClass('unloaded');
+        btnLangChange.addClass('unloaded');
         btnSearchTrigger.addClass('unloaded');
         searchWrapper.addClass('d-flex');
         btnCancel.addClass('loaded');
+        btnLangChange.addClass('loaded');
+        topbarRightItemsWrapper.addClass('w-100');
       },
       off: function() {
         btnCancel.removeClass('loaded');
+        btnLangChange.removeClass('unloaded');
         searchWrapper.removeClass('d-flex');
         btnSbTrigger.removeClass('unloaded');
         topbarTitle.removeClass('unloaded');
         btnSearchTrigger.removeClass('unloaded');
+        topbarRightItemsWrapper.removeClass('w-100');
       }
     }
   })();

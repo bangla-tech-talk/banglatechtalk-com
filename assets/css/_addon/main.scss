@@ -321,6 +321,7 @@ $sidebar-display: "sidebar-display";
 #search-cancel { /* 'Cancel' link */
   color: var(--link-color);
   margin-left: 1rem;
+  cursor: pointer;
   display: none;
 }
 
@@ -422,6 +423,19 @@ $sidebar-display: "sidebar-display";
   @at-root [#{$sidebar-display}] & {
     display: block!important;
   }
+}
+
+
+#breadcrumb {
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+#language-change {
+  margin-left: 10px;
 }
 
 /*--- main wrapper ---*/
@@ -968,6 +982,7 @@ table {
 }
 
 
+/* Mobile Mode*/
 /* Hide Sidebar and TOC */
 @media all and (max-width: 830px) {
   %slide {
@@ -1050,6 +1065,11 @@ table {
     display: block;
   }
 
+  #search-trigger {
+    top: 6px;
+    position: relative;
+  }
+
   #search-wrapper {
     &.loaded~a {
       margin-right: 1rem;
@@ -1071,6 +1091,10 @@ table {
   #search-hints {
     display: block;
     padding: 0 1rem;
+  }
+
+  #language-change {
+    margin-left: 20px;
   }
 
   #tags {
@@ -1117,7 +1141,6 @@ table {
   }
 
   #search-wrapper {
-    width: 22%;
     min-width: 150px;
   }
 
@@ -1188,14 +1211,6 @@ table {
 
   #main-wrapper {
     margin-left: 210px;
-  }
-
-  #breadcrumb {
-    width: 65%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: keep-all;
-    white-space: nowrap;
   }
 
 }
@@ -1336,7 +1351,7 @@ table {
   }
 
   #search-wrapper {
-    margin-right: 3%;
+    margin-right: 5px;
   }
 
   #profile-wrapper {

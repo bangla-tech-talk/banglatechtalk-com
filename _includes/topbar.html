@@ -38,13 +38,18 @@
     {% endif %}
     </div>
 
-    <i id="search-trigger" class="fas fa-search fa-fw"></i>
-    <span id="search-wrapper" class="align-items-center">
-      <i class="fas fa-search fa-fw"></i>
-      <input class="form-control" id="search-input" type="search" placeholder="{{ site.data.label.search_hint }}...">
-      <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>
-    </span>
-    <span id="search-cancel" >Cancel</span>
+    <div id="topbar-right-items-wrapper"  class="d-flex align-items-right justify-content-between">
+      <i id="search-trigger" class="fas fa-search fa-fw"></i>
+      <span id="search-wrapper" class="align-items-center">
+        <i class="fas fa-search fa-fw"></i>
+        <input class="form-control" id="search-input" type="search" placeholder="{{ site.data.label.search_hint }}...">
+        <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>
+      </span>
+      <span id="search-cancel" >Cancel</span>
+
+      <a href="{{site.other_language_url}}" id="language-change">{{site.data.label.common.language_change}}</a>
+    </div>
+
   </div>
 
 </div>

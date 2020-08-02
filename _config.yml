@@ -10,6 +10,8 @@ description: Casual chat about technology with tech personnel in Bengali.
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://banglatechtalk.com'
 
+other_language_url: 'https://en.banglatechtalk.com'
+
 author: Saiful Islam                  # change to your full name
 
 avatar: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/7395492/7395492-1595424319743-13bf84874670c.jpg #todo: make local
