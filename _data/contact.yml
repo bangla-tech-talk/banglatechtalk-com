@@ -1,0 +1,36 @@
+-
+  type: facebook
+  icon: 'fab fa-facebook-f'
+  url: 'https://www.facebook.com/banglatechtalkpodcast'
+  text: 'Facebook'
+-
+  type: voice-message
+  icon: 'fas fa-microphone-alt'
+  url: 'https://anchor.fm/banglatechtalk/message'
+  text: 'Voice Message'
+-
+  type: spotify
+  icon: 'fab fa-spotify'
+  url: 'https://open.spotify.com/show/4jfPm4TFQpPA2XH0W3UJHQ'
+  text: 'Spotify'
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: true            # open link in current tab
+  text: 'Email'
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true
+  text: 'RSS'
+
+# Uncomment and complete the url below to enable more contact options
+# -
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your mastodon account page
+# -
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Linkedin homepage
+# -
+#   icon: 'fab fa-stack-overflow'
+#   url:  ''                  # Fill with your stackoverflow homepage

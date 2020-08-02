@@ -1,0 +1,30 @@
+#  The tab data.
+#  v2.1
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+#  © 2020 Cotes Chung
+#  MIT Licensed
+
+
+-
+  name: "হোম"
+  icon: "fas fa-home"
+-
+  name: "ক্যাটেগরি"
+  icon: "fas fa-stream"
+  path: tabs
+  url: categories
+-
+  name: "ট্যাগ"
+  icon: "fas fa-tags"
+  path: tabs
+  url: tags
+-
+  name: "আর্কাইভ"
+  path: tabs
+  url: archives
+  icon: "fas fa-archive "
+-
+  name: "কি । কেন ‌। কিভাবে"
+  icon: "fas fa-info"
+  path: tabs
+  url: about

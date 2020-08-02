@@ -1,0 +1,31 @@
+# The label text of site.
+#  v2.0
+#  https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT Licensed
+
+common:
+  details: "বিস্তারিত"
+
+panel:
+  lastmod: "সাম্প্রতিক সংযোজন"
+  trending_tags: "জনপ্রিয় ট্যাগ সমূহ"
+  toc: "এই পোস্টে যা আছে"
+
+post:
+  relate_posts: "একই রকম পোস্ট"
+  header:
+    download: ডাউনলোড
+    other_platform: "অন্য প্লাটফর্মের লিঙ্ক"
+  link:
+    download: ডাউনলোড করতে ক্লিক করুন 
+    other_platform: "অন্য প্লাটফর্মের লিঙ্ক"
+    read_more: "আরও পড়ুন"
+  text:
+    download: উপরের প্লাটফর্ম গুলোর বাইরেও আমাদের সব এপিসোড আপনি সরাসরি ডাউনলোড করতে পারবেন। এই এপিসোডটি সরাসরি
+    stop: ।
+  button:
+    next: পরবর্তী
+    previous: পূর্ববর্তী
+
+search_hint: "খুঁজুন"   # text show on search bar
