@@ -120,7 +120,7 @@ layout: default
               </a>
             {% endif %}
 
-            {% if page.pocketcast %}
+            {% if page.pocketcast_url %}
               <a href="{{ page.pocketcast }}">
                 <img src="{{ '/assets/img/badge/pc.png' | relative_url }}" height="40px">
               </a>
@@ -157,7 +157,7 @@ layout: default
           <h2>{{site.data.label.post.header.download}}</h2>
           
           {{site.data.label.post.text.download}}
-          <a href="page.download_link">{{site.data.label.post.link.download}}</a>
+          <a href="{{page.download_link}}">{{site.data.label.post.link.download}}</a>
           {{site.data.label.post.text.stop}}
 
         {% endif %}
