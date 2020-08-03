@@ -3,6 +3,7 @@ title: পডকাস্ট কী?
 author: Utsob Roy
 author_url: 'https://utsob.me/'
 date: 2020-08-01 14:42:00 +0600
+multi_lang: true
 categories: [ব্লগ, তথ্য]
 tags: [ব্লগ, তথ্য, পডকাস্ট কী, what is podcast]
 image: https://raw.githubusercontent.com/bangla-tech-talk/image-hosting/master/coffeeshop-earphone.jpg

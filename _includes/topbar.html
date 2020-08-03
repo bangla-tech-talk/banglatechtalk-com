@@ -47,7 +47,13 @@
       </span>
       <span id="search-cancel" >Cancel</span>
 
-      <a href="{{site.other_language_url}}" id="language-change">{{site.data.label.common.language_change}}</a>
+
+      {% if page.multi_lang == true %}
+        <a href="{{site.other_language_url}}/{{page.url | url_encode}}" id="language-change">{{site.data.label.common.language_change}}</a>
+      {% else %}
+        <a href="{{site.other_language_url}}" id="language-change">{{site.data.label.common.language_change}}</a>
+      {% endif %}
+
     </div>
 
   </div>

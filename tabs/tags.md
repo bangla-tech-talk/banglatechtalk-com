@@ -1,6 +1,7 @@
 ---
 title: ট্যাগ
 type: tags
+multi_lang: true
 # All the Tags of posts.
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
