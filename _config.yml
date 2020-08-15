@@ -24,7 +24,7 @@ social:
   links:
     - https://www.facebook.com/banglatechtalkpodcast
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google-site-verification: X7dFevyEawaXhjsJfAPEK0nXGi7Tm1-CdrT-PaT67ME
 
 #--------------------------
 
@@ -37,7 +37,7 @@ baseurl: ''
 timezone: Asia/Dhaka
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'UA-175209316-1'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
