@@ -61,7 +61,7 @@ layout: page
     <div class="post-content">
       <p>
         {% include no-linenos.html content=post.content %}
-        {{ content | markdownify | strip_html | truncate: 200 }}
+        {{ content | markdownify | strip_html | truncate: 250 }}
         <a href="{{ post.url | relative_url }}" class="no-decoration-link">{{site.data.label.common.details}}</a>
       </p>
 
