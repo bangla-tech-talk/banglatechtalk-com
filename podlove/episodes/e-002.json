@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "show": {
+        "title": "Bangla Tech Talk",
+        "subtitle": "Casual chat with Bengali speaking tech personnel around the world!",
+        "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+        "link": "https://banglatechtalk.com"
+    },
+    "title": "Competitive Programming, Software Engineering and Higher Education in Germany - Anindya Sundar Paul (MSc Student, Technical University of Munich)",
+    "subtitle": "Anindya Sundar Paul (MSc Student, Technical University of Munich)",
+    "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+    "duration": "01:54:53",
+    "audio": [
+        {
+            "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-08-16/c7c204dec4106a3f4724e810fe1fc7f4.m4a",
+            "title": "MPEG-4 AAC Audio (m4a)",
+            "mimeType": "audio/mp4",
+            "size": "111486536"
+        }
+    ],
+    "chapters": "/podlove/episodes/chapters/e-002-chapters.json"
+}

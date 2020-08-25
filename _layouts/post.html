@@ -67,21 +67,33 @@ layout: default
 
       <div class="post-content">
 
-        {% if page.embeded_url %}
-        <div class="post-embeded-player" style="margin-top: 2rem;margin-bottom: 2rem;">
-          <iframe scrolling=no
-                  width="100%"
-                  height="205"
-                  frameborder="0"
-                  src="{{page.embeded_url}}">
-          </iframe>
-        </div>
-        {% endif %}
 
         {% if page.summary %}
           {{ page.summary }}
         {% endif %}
   
+
+        {% if page.podlove%}
+          <script>
+            podlovePlayer("#{{ page.podlove_player_id }}", "{{ page.podlove_cofig | relative_url }}", "{{'/podlove/config/config.json' | relative_url }}")
+            .then(registerExternalEvents('{{ page.podlove_player_id }}'));;
+          </script>
+          
+          <div id="{{ page.podlove_player_id }}" style="margin-top: 2rem;margin-bottom: 2rem;">
+            {% include podlove-full.html %}
+          </div>
+
+        {% elsif page.embeded_url %}
+          <div class="post-embeded-player" style="margin-top: 2rem;margin-bottom: 2rem;">
+            <iframe scrolling=no
+                    width="100%"
+                    height="205"
+                    frameborder="0"
+                    src="{{page.embeded_url}}">
+            </iframe>
+          </div>
+        {% endif %}
+
         {% if page.image and page.insert_image %}
           <img src="{{ page.image }}">
         {% endif %}

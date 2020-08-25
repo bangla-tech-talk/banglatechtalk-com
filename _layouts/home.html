@@ -65,7 +65,17 @@ layout: page
         <a href="{{ post.url | relative_url }}" class="no-decoration-link">{{site.data.label.common.details}}</a>
       </p>
 
-      {% if post.embeded_url %}
+      {% if post.podlove %}
+          <script>
+            podlovePlayer("#{{ post.podlove_player_id }}", "{{ post.podlove_cofig | relative_url }}",
+             "{{'/podlove/config/config-light.json' | relative_url }}");
+          </script>
+          
+          <div id="{{ post.podlove_player_id }}" style="margin-top: 1rem;">
+            {% include podlove-medium.html %}
+          </div>
+
+      {% elsif post.embeded_url %}
         <div class="post-embeded-player" style="margin-top: 1rem;">
           <iframe scrolling=no
                   width="100%"

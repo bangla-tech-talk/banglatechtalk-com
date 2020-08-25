@@ -1,0 +1,21 @@
+{
+    "version": 5,
+    "show": {
+        "title": "Bangla Tech Talk",
+        "subtitle": "Casual chat with Bengali speaking tech personnel around the world!",
+        "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+        "link": "https://banglatechtalk.com"
+    },
+    "title": "Software Engineer's Story - M Shakhawat Hossain Safat (Software Engineer, PayPal)",
+    "subtitle": "M Shakhawat Hossain Safat (Software Engineer, PayPal)",
+    "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+    "duration": "00:56:14",
+    "audio": [
+        {
+            "url": "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-08-03/e4adb6ff9e442abc0d5b468378b33f94.m4a",
+            "title": "MPEG-4 AAC Audio (m4a)",
+            "mimeType": "audio/mp4",
+            "size": "54573934"
+        }
+    ]
+}

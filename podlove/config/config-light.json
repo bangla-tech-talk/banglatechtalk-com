@@ -1,0 +1,100 @@
+{
+    "base": "/player/",
+    "activeTab": "chapters",
+    "theme": {
+        "tokens": {
+            "brand": "#d2603a ",
+            "brandDark": "#1d4056",
+            "brandDarkest": "#1A3A4A",
+            "brandLightest": "#E9F1F5",
+            "shadeDark": "#807E7C",
+            "shadeBase": "#807E7C",
+            "contrast": "#000",
+            "alt": "#fff"
+        },
+        "fonts": {
+            "ci": {
+                "name": "Noto Sans Bengali UI",
+                "family": [
+                    "Source Sans Pro",
+                    "Noto Sans Bengali UI",
+                    "Lato",
+                    "Microsoft Yahei",
+                    "sans-serif"
+                ],
+                "weight": 900,
+                "src": [
+                    "/assets/fonts/NotoSansBengaliUI-Regular.ttf"
+                ]
+            },
+            "regular": {
+                "name": "Noto Sans Bengali UI",
+                "family": [
+                    "Source Sans Pro",
+                    "Noto Sans Bengali UI",
+                    "Lato",
+                    "Microsoft Yahei",
+                    "sans-serif"
+                ],
+                "weight": 300,
+                "src": [
+                    "/assets/fonts/NotoSansBengaliUI-Regular.ttf"
+                ]
+            },
+            "bold": {
+                "name": "Noto Sans Bengali UI",
+                "family": [
+                    "Source Sans Pro",
+                    "Noto Sans Bengali UI",
+                    "Lato",
+                    "Microsoft Yahei",
+                    "sans-serif"
+                ],
+                "weight": 700,
+                "src": [
+                    "/assets/fonts/NotoSansBengaliUI-Bold.ttf"
+                ]
+            }
+        }
+    },
+    "subscribe-button": {
+        "feed": "https://anchor.fm/s/2cad3690/podcast/rss",
+        "clients": [
+            {
+                "id": "apple-podcasts",
+                "service": "id1524690178"
+            },
+            {
+                "id": "google-podcasts",
+                "service": "https://anchor.fm/s/2cad3690/podcast/rss"
+            },
+            {
+                "id": "castbox",
+                "service": "Bangla-Tech-Talk-id3149130"
+            },
+            {
+                "id": "radio-public",
+                "service": "itunes1524690178"
+            },
+            {
+                "id": "pocket-casts",
+                "service": "1p3iuuso"
+            },
+            {
+                "id": "spotify",
+                "service": "4jfPm4TFQpPA2XH0W3UJHQ"
+            },
+            {
+                "id": "rss",
+                "service": "https://anchor.fm/s/2cad3690/podcast/rss"
+            }
+        ]
+    },
+    "share": {
+        "channels": [
+            "facebook",
+            "twitter",
+            "mail"
+        ]
+    }
+}
