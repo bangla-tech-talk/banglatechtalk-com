@@ -17,5 +17,6 @@
             "mimeType": "audio/mp4",
             "size": "54573934"
         }
-    ]
+    ],
+    "chapters": "/podlove/episodes/chapters/e-001-chapters.json"
 }
