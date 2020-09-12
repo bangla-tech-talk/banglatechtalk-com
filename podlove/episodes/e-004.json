@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "show": {
+        "title": "Bangla Tech Talk",
+        "subtitle": "Casual chat with Bengali speaking tech personnel around the world!",
+        "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+        "link": "https://banglatechtalk.com"
+    },
+    "title": "Machine Learning In the Software Industry of Bangladesh - Zobayer Hasan (Solutions Architect, TigerIT Bangladesh Ltd)",
+    "subtitle": "Zobayer Hasan (Solutions Architect, TigerIT Bangladesh Ltd)",
+    "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+    "duration": "01:35:21",
+    "audio": [
+        {
+            "url": "https://anchor.fm/s/2cad3690/podcast/play/19461961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-09-12%2F55219c1f427bc42d04d6ec9405df0d3f.m4a",
+            "title": "MPEG-4 AAC Audio (m4a)",
+            "mimeType": "audio/mp4",
+            "size": "92541713"
+        }
+    ],
+    "chapters": "/podlove/episodes/chapters/e-004-chapters.json"
+}
