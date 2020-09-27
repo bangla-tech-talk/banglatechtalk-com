@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "show": {
+        "title": "Bangla Tech Talk",
+        "subtitle": "Casual chat with Bengali speaking tech personnel around the world!",
+        "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+        "link": "https://banglatechtalk.com"
+    },
+    "title": "Human, Technology, and Bharatanatyam To Street Dance - Jessica Sharmin Rahman (PhD Student, Australian National University)",
+    "subtitle": "Jessica Sharmin Rahman (PhD Student, Australian National University)",
+    "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+    "duration": "02:02:00",
+    "audio": [
+        {
+            "url": "https://anchor.fm/s/2cad3690/podcast/play/20217292/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-09-26%2F03304646c787046aac2817aa31719e7c.m4a",
+            "title": "MPEG-4 AAC Audio (m4a)",
+            "mimeType": "audio/mp4",
+            "size": "118670946"
+        }
+    ],
+    "chapters": "/podlove/episodes/chapters/e-005-chapters.json"
+}
