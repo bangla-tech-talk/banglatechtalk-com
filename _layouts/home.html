@@ -60,7 +60,12 @@ layout: page
     </div>
     <div class="post-content">
       <p>
+        {% if post.description %}
+        {% include no-linenos.html content=post.description %}
+        {% else %}
         {% include no-linenos.html content=post.content %}
+        {% endif %}
+
         {{ content | markdownify | strip_html | truncate: 250 }}
         <a href="{{ post.url | relative_url }}" class="no-decoration-link">{{site.data.label.common.details}}</a>
       </p>
