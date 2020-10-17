@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "show": {
+        "title": "Bangla Tech Talk",
+        "subtitle": "Casual chat with Bengali speaking tech personnel around the world!",
+        "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+        "link": "https://banglatechtalk.com"
+    },
+    "title": "E-Commerce, Chatbot, and Facebook As a Marketplace - Azizul Hakim & Jahid Hasan",
+    "subtitle": "Azizul Hakim & Jahid Hasan",
+    "poster": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/7395492/7395492-1595424317177-c01fe06dc53f9.jpg",
+    "duration": "01:33:58",
+    "audio": [
+        {
+            "url": "https://anchor.fm/s/2cad3690/podcast/play/21217899/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-16%2F592d83fb22ee0a927a6fe757b2c4707c.m4a",
+            "title": "MPEG-4 AAC Audio (m4a)",
+            "mimeType": "audio/mp4",
+            "size": "91193435"
+        }
+    ],
+    "chapters": "/podlove/episodes/chapters/e-006-chapters.json"
+}
